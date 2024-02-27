@@ -22,6 +22,12 @@ namespace VatCalculationApi.Service
                 net = gross / (1 + vatRate);
                 vatAmount = gross - net;
             }
+            else if (request.VatAmount.HasValue && request.VatAmount > 0)
+            {
+                vatAmount = request.VatAmount.Value;
+                net = vatAmount/vatRate;
+                gross = net + vatAmount;
+            }
             else
             {
                 throw new ArgumentException("Invalid amount input.");
