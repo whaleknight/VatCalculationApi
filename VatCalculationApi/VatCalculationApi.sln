@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VatCalculationApi", "VatCalculationApi.csproj", "{E9C38989-38E3-44B3-9AFE-B0B83F655F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatCalculationApiTests", "..\VatCalculationApiTests\VatCalculationApiTests.csproj", "{876C5016-B889-4764-A163-A057AC383EE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9C38989-38E3-44B3-9AFE-B0B83F655F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C38989-38E3-44B3-9AFE-B0B83F655F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C38989-38E3-44B3-9AFE-B0B83F655F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C38989-38E3-44B3-9AFE-B0B83F655F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876C5016-B889-4764-A163-A057AC383EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876C5016-B889-4764-A163-A057AC383EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876C5016-B889-4764-A163-A057AC383EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876C5016-B889-4764-A163-A057AC383EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E289E9D5-82BF-4BE3-9609-63A9C390CE64}
+	EndGlobalSection
+EndGlobal
